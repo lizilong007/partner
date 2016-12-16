@@ -57,6 +57,7 @@ class ComposerStaticInit666c9105b3b9661955dcf47424f58686
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
+            'GitHubWebhook\\' => 14,
         ),
         'F' => 
         array (
@@ -163,6 +164,10 @@ class ComposerStaticInit666c9105b3b9661955dcf47424f58686
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GitHubWebhook\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dintel/php-github-webhook/src',
         ),
         'Faker\\' => 
         array (

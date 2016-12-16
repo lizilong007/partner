@@ -2855,5 +2855,49 @@
             }
         ],
         "description": "BDD assertion library for PHPUnit"
+    },
+    {
+        "name": "dintel/php-github-webhook",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dintel/php-github-webhook.git",
+            "reference": "65dab89972365c52b2b2e4ef55795cb568768e46"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packagist.phpcomposer.com/files/dintel/php-github-webhook/65dab89972365c52b2b2e4ef55795cb568768e46.zip",
+            "reference": "65dab89972365c52b2b2e4ef55795cb568768e46",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2016-10-30 09:49:43",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GitHubWebhook\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Zbarski",
+                "email": "dmitry.zbarski@gmail.com",
+                "homepage": "http://zbarski.info",
+                "role": "Developer"
+            }
+        ],
+        "description": "Simple class for handling GitHub webhook calls",
+        "keywords": [
+            "git",
+            "webhook"
+        ]
     }
 ]

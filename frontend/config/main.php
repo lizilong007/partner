@@ -36,14 +36,26 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                //
+                "http://partner.daoapp.io/<language:en-us|zh-cn|fa-ke>/<module:\w+>/<controller:(\w|-)+>/<action:(\w|-)+>" => '<module>/<controller>/<action>',
+                "http://partner.daoapp.io/<module:\w+>/<controller:(\w|-)+>/<action:(\w|-)+>" => '<module>/<controller>/<action>',
             ],
         ],
-        */
+
+    ],
+    'modules' => [
+        'git' => [
+            'class' => 'frontend\modules\git\Module',
+            // 'errorHandler' => [
+            //     'errorAction' => 'www/site/eror',
+            // ],
+        ],
+
     ],
     'params' => $params,
 ];
