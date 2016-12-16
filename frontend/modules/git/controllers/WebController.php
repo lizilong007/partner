@@ -11,7 +11,7 @@ class WebController extends \frontend\controllers\BaseController
 {
     public function actionHooks()
     {
-        $handler = new Handler("wodemiyao5225840,./;", \Yii::getAlias('@root'));
+        $handler = new Handler("wodemiyao5225840,./;", \Yii::getAlias('@root'), 'origin master');
         if($handler->handle()) {
             echo "OK";
         } else {
