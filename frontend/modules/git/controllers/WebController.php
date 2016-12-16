@@ -9,6 +9,8 @@ use GitHubWebhook\Handler;
  */
 class WebController extends \frontend\controllers\BaseController
 {
+    public $enableCsrfValidation = false;
+
     public function actionHooks()
     {
         $handler = new Handler("wodemiyao5225840,./;", \Yii::getAlias('@root'), 'origin master');
