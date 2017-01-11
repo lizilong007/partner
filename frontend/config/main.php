@@ -55,7 +55,9 @@ return [
             //     'errorAction' => 'www/site/eror',
             // ],
         ],
-
+        'shop' => [
+            'class' => 'frontend\modules\shop\Module',
+        ],
     ],
     'params' => $params,
 ];
