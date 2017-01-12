@@ -1,6 +1,7 @@
 <?php
 namespace frontend\modules\shop;
-
+ini_set('display_errors', 'Off');
+error_reporting(0);
 class Module extends \yii\base\Module
 {
     public $controllerNamespace = 'frontend\modules\shop\controllers';
